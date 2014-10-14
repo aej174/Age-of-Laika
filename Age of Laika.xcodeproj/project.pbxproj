@@ -13,6 +13,7 @@
 		22F4749B19E97AA5009C4E47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F4749A19E97AA5009C4E47 /* Images.xcassets */; };
 		22F4749E19E97AA5009C4E47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F4749C19E97AA5009C4E47 /* LaunchScreen.xib */; };
 		22F474AA19E97AA5009C4E47 /* Age_of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F474A919E97AA5009C4E47 /* Age_of_LaikaTests.swift */; };
+		22F474B419E97ADF009C4E47 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22F474B319E97ADF009C4E47 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		22F474A319E97AA5009C4E47 /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F474A819E97AA5009C4E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22F474A919E97AA5009C4E47 /* Age_of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_LaikaTests.swift; sourceTree = "<group>"; };
+		22F474B319E97ADF009C4E47 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		22F4749119E97AA5009C4E47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22F474B319E97ADF009C4E47 /* AgeOfLaika.jpg */,
 				22F4749219E97AA5009C4E47 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F4749919E97AA5009C4E47 /* Main.storyboard in Resources */,
+				22F474B419E97ADF009C4E47 /* AgeOfLaika.jpg in Resources */,
 				22F4749E19E97AA5009C4E47 /* LaunchScreen.xib in Resources */,
 				22F4749B19E97AA5009C4E47 /* Images.xcassets in Resources */,
 			);
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = "Age of Laika/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = "Age of Laika/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +413,7 @@
 				22F474AF19E97AA5009C4E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F474B019E97AA5009C4E47 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				22F474B219E97AA5009C4E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
